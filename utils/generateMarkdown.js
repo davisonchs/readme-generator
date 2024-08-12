@@ -22,7 +22,9 @@ function renderLicenseSection(license) {
   if (license === 'N/A'){
     return ''
   }
-  return ``
+  return `## License
+  
+  This applciation is covered by the ${license} license.`
 }
 
 // TODO: Create a function to generate markdown for README
