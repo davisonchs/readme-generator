@@ -10,6 +10,10 @@ const questions = [
         message: "Please provide the title for your application:"
     },
     {
+        name: 'description', 
+        message: "Please provide the description for your application:"
+    },
+    {
         name: 'email', 
         message: "Please provide your email:"
     },
